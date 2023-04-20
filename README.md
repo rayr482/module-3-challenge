@@ -9,3 +9,5 @@ This is a password generator made functional entirely through JavaScript! This a
 ![image](https://user-images.githubusercontent.com/128929611/233250438-eb982fd4-f953-4352-b8e1-db07443f0e30.png)
 
 ## Link to Deployed Application
+
+https://rayr482.github.io/module-3-challenge/
