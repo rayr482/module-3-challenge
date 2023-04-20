@@ -1,13 +1,20 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+
 var char = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "]", "^", "_", "`", "{", "|", "}", "~", "\\"];
 var num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 var letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var letters2 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-var toUpper = function(x) {return x.toUpperCase();};
-var letters2 = letters2.map(toUpper);
+
+var toUpper = function(x) {
+    return x.toUpperCase();
+};
+
+letters2 = letters2.map(toUpper);
+
 var upper = [];
 var criteria;
+
 // Write password to the #password input
 function generatePassword() {
     var passwordLength = prompt('How many characters would you like in your password? Please choose any number from 8 to 128.');
